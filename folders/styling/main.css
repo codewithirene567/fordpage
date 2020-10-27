@@ -1,0 +1,90 @@
+h1{color: white
+}
+h1{text-align: center
+}
+h1{font-family:goudy-old style}
+h1{font-size: 100px}
+h2{color: blue}
+h5{color:white}
+h5{font-style:italic}
+h5{text-align:center}
+h5{font-size: 20px}
+p{color: white}
+p{font-size: 26px}
+a{color:white}
+
+img{
+  height: 465px;
+  width:441px;
+}
+#mustang{
+  height:450px;
+  width:1350px;
+}
+* {
+  box-sizing: border-box;
+}
+body {
+  background-color: #474e5d;
+  font-family: Georgia;
+}
+.timeline {
+  position: relative;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.timeline::after {
+  content: '';
+  position: absolute;
+  width: 6px;
+  background-color: white;
+  top: 0;
+  bottom: 0;
+  left: 2.5%;
+}
+.container {
+  padding: 5px 20px;
+  position: relative;
+  background-color: inherit;
+  width: 10%;
+}
+.container::after {
+  content: "Ford";
+  color: #ffffff;
+  font-family: Times new Roman;
+  font-style: italic;
+  font-weight: bold;
+  position: absolute;
+  width: 60px;
+  height: 25px;
+  right: -17px;
+  text-indent: 15px;
+  align-content: center;
+  background-color: blue;
+  border: 4px solid #ffffff;
+  top: 15px;
+  border-radius: 50%;
+  z-index: 1;
+}
+.left {
+  left: 0%;
+}
+.content {
+  padding: 10px 20px;
+  background-color: white;
+  position: relative;
+  border-radius: 10px;
+}
+ .container {
+    width: 50%;
+    height: 70%;
+    padding-left: 70px;
+    padding-right: 25px;
+  }
+  .left::after{
+    left: 7px;
+  }
+
+  #everything{
+      color: white;
+  }
